@@ -1,2 +1,15 @@
-<p>Now I can render any React component on any DOM node I want using ReactDOM.render</p>
+import React from 'react';
+import Review from './Review';
 
+function App() {
+  return (
+    <section className="container">
+      <main>
+        <h2 id="review-heading">Our Reviews</h2>
+        <Review />
+      </main>
+    </section>
+  );
+}
+
+export default App;
